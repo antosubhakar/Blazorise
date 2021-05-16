@@ -10,7 +10,10 @@
   </ItemGroup>
 
   <ItemGroup>
+		<!-- 
     <ProjectReference Include="..\..\..\Source\Blazorise\Blazorise.csproj" />
+		-->
+		<PackageReference Include="Blazorise" Version="0.9.3.6" />
   </ItemGroup>
 
   <PropertyGroup>

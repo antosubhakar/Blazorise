@@ -3,6 +3,7 @@
   <Import Project="..\..\Build\Blazorise.Demo.props" />
 
   <ItemGroup>
+		<!-- 
     <ProjectReference Include="..\..\Source\Blazorise\Blazorise.csproj" />
     <ProjectReference Include="..\..\Source\Extensions\Blazorise.Animate\Blazorise.Animate.csproj" />
     <ProjectReference Include="..\..\Source\Extensions\Blazorise.Charts.Streaming\Blazorise.Charts.Streaming.csproj" />
@@ -13,7 +14,19 @@
     <ProjectReference Include="..\..\Source\Extensions\Blazorise.Sidebar\Blazorise.Sidebar.csproj" />
     <ProjectReference Include="..\..\Source\Extensions\Blazorise.Snackbar\Blazorise.Snackbar.csproj" />
     <ProjectReference Include="..\..\Source\Extensions\Blazorise.TreeView\Blazorise.TreeView.csproj" />
+		-->
     <ProjectReference Include="..\Apps\TodoApp\TodoApp.csproj" />
+		<PackageReference Include="Blazorise" Version="0.9.3.6" />
+
+		<PackageReference Include="Blazorise.DataGrid" Version="0.9.3.6" />
+		<PackageReference Include="Blazorise.Components" Version="0.9.3.6" />
+		<PackageReference Include="Blazorise.Charts" Version="0.9.3.6" />
+		<PackageReference Include="Blazorise.Sidebar" Version="0.9.3.6" />
+		<PackageReference Include="Blazorise.Snackbar" Version="0.9.3.6" />
+		<PackageReference Include="Blazorise.TreeView" Version="0.9.3.6" />
+		<PackageReference Include="Blazorise.Charts.Streaming" Version="0.9.3.6" />
+		<PackageReference Include="Blazorise.RichTextEdit" Version="0.9.3.6" />
+		<PackageReference Include="Blazorise.Animate" Version="0.9.3.6" />
   </ItemGroup>
 
   <PropertyGroup>
